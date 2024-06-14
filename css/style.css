@@ -1,0 +1,126 @@
+
+:root {     
+  --base-color: #fb7d61;
+  --very-light-gray:#EEE8E6;
+  --dark-gray:#36332e;
+  --medium-gray: #858181;
+  --light-medium-gray: #f8f3f0;
+} 
+
+body {
+  font-size: 18px;
+}
+
+/* header */
+header .navbar-brand {
+  padding: 10px 20px;
+}
+header .navbar-brand img {
+  max-height: 70px;
+}
+header.sticky .navbar-brand {
+  padding: 10px 0;
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.widget-text {
+  color: var(--base-color);
+}
+/* heading */
+h1 {
+  font-family: var(--alt-font);
+  font-size: 3.438rem;
+  text-transform: uppercase;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 25px;
+}
+h3 {
+  line-height: 3rem;
+}
+h4 {
+  line-height: 2.375rem;
+}
+.list-style{
+  padding-left: 16px;
+}
+.list-style li {
+  margin: 0 0 10px;
+  list-style: disc;
+}
+.markers {
+  font-family: var(--primary-font);
+}
+.markers li::marker {
+	color: var(--base-color);
+	font-size: 18px;
+}
+.promo {
+  font-family: var(--alt-font);
+  font-size: 3.438rem;
+  text-transform: uppercase;
+  line-height: 4rem; 
+}
+.promo .highlight-separator {
+  padding-bottom: 0;
+}
+span strong {
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+.btn {
+  font-family: var(--primary-font);
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+.btn.btn-rounded.btn-border-base-color { 
+  color: var(--white); 
+}
+.btn.btn-rounded.btn-border-base-color:after {
+  border-color: var(--base-color); 
+  transition: 0.3s ease;
+}
+/* bg gradient color */
+.bg-color {
+  background-color: #f7f1ef;
+}
+.bg-dark-color {
+  background-color: #35312f;
+}
+.bg-gray-color {
+  background-color: #232323b3;
+}
+.bg-very-light-gray {
+  background-color: #EEE8E6;
+}
+.bg-gradient-fast-pink-light-yellow {
+  background-image: linear-gradient(to right, #ece1e4, #ffba83, #f7567f);
+  background-size: 200% auto;
+}
+.bg-base-color-transparent {
+  background-color: rgba(244, 134, 110,.9);
+}
+.bg-base-color-transparent-light {
+  background-color: rgba(244, 134, 110,.2);
+}
+.bg-gradient-dark-transparent {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #36332e), to(transparent));
+  background: linear-gradient(to top, #36332e 7%, transparent 100%);
+}
+.border-color-light-gray {
+  border-color: #DCD7D4 !important;
+}
+.hero-btn {
+  max-width: 375px;
+  display: flex;
+  align-items: center;  
+}
+
+
+
+
+
